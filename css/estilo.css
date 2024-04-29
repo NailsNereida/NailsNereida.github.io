@@ -1,0 +1,198 @@
+body{
+	background-image:url("../imagenes/fondo.jpg");
+	color:#550B58;
+	font-family: Georgia,"courier New", "lucida console",monospace;
+	font-size:40px;
+}
+p{
+	text-align:center;
+	font-size:20px;
+}
+hr{
+	border:3px solid #CECECE ;
+	border-radius:5px;
+	width:80%;
+}
+table,tr,td{
+	border:1px solid #E8DAEF;
+	border-spacing:0px;
+	background-color:#E8DAEF;
+	text-align:center;
+	font-size:20px;
+}
+
+ul{
+	list-style-type:circle;
+	list-style-position:inside;
+}
+ol{
+	list-style-type:upper-alpha;
+	list-style-position:inside;
+}
+@font-face{
+	font-family:fuente;
+	src:url("../font/ELEPHNT.TTF");
+}
+@font-face{
+	font-family:fuente2;
+	src:url("../font/Sunny Spells Basic.TTF")
+}
+.pie{
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	font-family:fuente2;
+}
+.encabezado{
+	text-align: center;
+	font-size:30px;
+	font-weight:bold;
+	font-family:fuente2;
+}
+.img-control{
+	height:50px;
+	width:70px;
+	border-radius:15%;
+}
+/*clase de imagenes de las maquesinas*/
+.img-marquee{
+	height:400px;
+	width:600px;
+	border-radius:10%;
+}
+.img-producto{
+	height:200px;
+	width:250px;
+	border-radius:10%;
+}	
+div#top{
+	padding:30px;
+	width:100%;
+	height:70px;
+	background-color:#BB8FCE;
+	font-family:fuente;
+}
+div#abajo{
+	padding:30px;
+	width:100%;
+	height:70px;
+	background-color:#BB8FCE 
+}
+div#principal{
+	padding:30px;
+	width:100%;
+	height: 100%;
+	background-color:#F5EEF8;
+	
+}
+.caja{
+	height:330px;
+	width:310px;
+	background:#EECEEF;
+	border:1px solid #eee;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+	}
+.caja:hover{
+	box-shadow:0 0 10px #A900B0;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:#550B58;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+.carrousel{
+    width: 600px;
+    margin:auto;
+    /*Hace que el padding y el border pasen a formar
+    parte del calculo de la caja y no de la suma */
+    box-sizing: border-box;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 400px;
+    /*Hace que el navegador oculte
+    todos los contenidos que salen del div*/
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.itemCarrousel{
+    /*La nueva Posicion del elemento en relacioncion de
+    un elemento con su posicion normal*/
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows{
+    /*Hace que un elemento se coloque
+    respecto a su contenedor posicionado
+    mas cercano*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    /*Ayuda a colocar las caja como si
+    fueran celdas de tablas*/
+    display: flex;
+    align-items: center;
+    /*Distribuye el espacion entre los
+    objetos y su alrededor*/
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 32px;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+.deta{
+	 height: 200px;
+    width: 600px;
+	background:#EECEEF;
+	border:1px solid #EECEEF;
+	font-size: 30px;
+	font-family:fuente2;
+}
+
+
+
+
+
